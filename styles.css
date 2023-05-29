@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.title-div{
+    display: flex;
+    background-color: #394867;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+.title-image-corner{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 0;
+    top: 0;
+}
+.title-image-right-corner{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    right: 0;
+    top: 0;
+}
+.title-heading{
+    color: #F1F6F9;
+    font-family: 'Pacifico', cursive;
+    font-size: 5rem;
+}
+.title-p{
+    color: #F1F6F9;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+#about{
+    background-color: #F1F6F9;
+}
+
+.about-heading{
+    font-family: 'Ubuntu', sans-serif;
+    color: #212A3E;
+}
+.about-p{
+    font-family: 'Ubuntu', sans-serif;
+    color: #9BA4B5;
+}
+
+#skills{
+    background-color: #F1F6F9;
+    font-family: 'Ubuntu', sans-serif;
+}
+#skills p{
+    color: #9BA4B5;
+}
+#skills h3{
+    color: #212A3E;
+}
+
+#contact-me{
+    background-color: #394867;
+    font-family: 'Ubuntu', sans-serif;
+}
+.contact-magic{
+    color: #212A3E;
+}
+.contact-main-div{
+    background-color: #F1F6F9;
+}
+.contact-h1{
+    color: #212A3E;
+}
+.contact-p{
+    color: #9BA4B5;
+}
+
+
+#footer{
+    background-color: #394867;
+    font-family: 'Ubuntu', sans-serif;
+}
+.footer-span{
+    color: #F1F6F9;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 600px){
+    .title-image-corner{
+        height: 200px;
+        width: 200px;
+    }
+    .title-image-right-corner{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media (min-width: 601px) and (max-width: 900px){
+    .title-image-corner{
+        height: 300px;
+        width: 300px;
+    }
+    .title-image-right-corner{
+        height: 300px;
+        width: 300px;
+    }
+}
